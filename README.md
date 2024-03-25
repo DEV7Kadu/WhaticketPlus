@@ -11,6 +11,7 @@
 <p>&nbsp;</p>
 
 <p dir="auto">FAZENDO DOWNLOAD DO INSTALADOR &amp; INICIANDO A PRIMEIRA INSTALA&Ccedil;&Atilde;O:<br />
+
 <code>sudo apt update && sudo apt upgrade -y && sudo apt install git -y && git clone https://github.com/carloseduardoback/Whaticket-Saas-Completo.git && cd Whaticket-Saas-Completo && sudo chmod +x ./automatizaai && ./automatizaai</code><br />
 &nbsp;</p>
 
