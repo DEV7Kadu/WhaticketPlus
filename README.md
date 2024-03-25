@@ -11,7 +11,7 @@
 <p>&nbsp;</p>
 
 <p dir="auto">FAZENDO DOWNLOAD DO INSTALADOR &amp; INICIANDO A PRIMEIRA INSTALA&Ccedil;&Atilde;O:<br />
-<code>apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf Whaticket-Saas-Completo && sudo git clone https://github.com/carloseduardoback/Whaticket-Saas-Completo.git && cd Whaticket-Saas-Completo && sudo chmod +x ./whatstalk && ./whatstalk</code><br />
+<code>sudo apt update && sudo apt upgrade -y && sudo apt install git -y && git clone https://github.com/carloseduardoback/Whaticket-Saas-Completo.git && cd Whaticket-Saas-Completo && sudo chmod +x ./automatizaai && ./automatizaai</code><br />
 &nbsp;</p>
 
 <h2 dir="auto">Para a instala&ccedil;&atilde;o voc&ecirc; vai precisar:</h2>
