@@ -6,13 +6,13 @@
 
 <p>&nbsp;</p>
 
-<h1 dir="auto"><strong>Debian 11 (Recomendado)</strong></h1>
 <h1 dir="auto"><strong>Ubuntu 20.04</strong></h1>
 
 <p>&nbsp;</p>
 
 <p dir="auto">FAZENDO DOWNLOAD DO INSTALADOR &amp; INICIANDO A PRIMEIRA INSTALA&Ccedil;&Atilde;O:<br />
-<code>sudo apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf Whaticket-Saas-Completo && sudo git clone https://github.com/carloseduardoback/Whaticket-Saas-Completo.git && cd Whaticket-Saas-Completo && sudo chmod +x ./whatstalk && ./whatstalk</code><br />
+
+<code>sudo apt update && sudo apt upgrade -y && sudo apt install git -y && git clone https://github.com/carloseduardoback/Whaticket-Saas-Completo.git && cd Whaticket-Saas-Completo && sudo chmod +x ./automatizaai && ./automatizaai</code><br />
 &nbsp;</p>
 
 <h2 dir="auto">Para a instala&ccedil;&atilde;o voc&ecirc; vai precisar:</h2>
@@ -22,7 +22,7 @@
 <p>&nbsp;</p>
 
 <ul dir="ltr">
-	<li>Uma&nbsp;<strong>VPS</strong>&nbsp;com&nbsp;<strong>Debian 11 e/ou Ubuntu 20.04</strong></li>
+	<li>Uma&nbsp;<strong>VPS</strong>&nbsp;com&nbsp;<strong>Ubuntu 20.04</strong></li>
 	<li>Configura&ccedil;&atilde;o Recomendada:</li>
 	<li><strong>4 VCPU&#39;s</strong>&nbsp;+&nbsp;<strong>8 GB RAM</strong></li>
 	<li>Subdom&iacute;nio para Frontend 👉🏻&nbsp;<a href="https://app.nomedoseudominio.com/" rel="nofollow">https://app.nomedoseudominio.com</a></li>
