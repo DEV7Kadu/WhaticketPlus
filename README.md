@@ -22,7 +22,7 @@
 <p>&nbsp;</p>
 
 <ul dir="ltr">
-	<li>Uma&nbsp;<strong>VPS</strong>&nbsp;com&nbsp;<strong>Debian 11 e/ou Ubuntu 20.04</strong></li>
+	<li>Uma&nbsp;<strong>VPS</strong>&nbsp;com&nbsp;<strong>Ubuntu 20.04</strong></li>
 	<li>Configura&ccedil;&atilde;o Recomendada:</li>
 	<li><strong>4 VCPU&#39;s</strong>&nbsp;+&nbsp;<strong>8 GB RAM</strong></li>
 	<li>Subdom&iacute;nio para Frontend 👉🏻&nbsp;<a href="https://app.nomedoseudominio.com/" rel="nofollow">https://app.nomedoseudominio.com</a></li>
