@@ -253,7 +253,7 @@ EOF
   sleep 2
 
   sudo su - deploywhatstalk <<EOF
-  cd /home/deployautomatizaai/whaticket/backend
+  cd /home/deploywhatstalk/whaticket/backend
   npx sequelize db:migrate
   
 EOF
@@ -268,8 +268,8 @@ backend_restart_pm2() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/backend
+  sudo su - deploydeployautomatizaai <<EOF
+  cd /home/deploydeployautomatizaai/whaticket/backend
   pm2 stop all
   pm2 start all
   rm -rf /root/Whaticket-Saas-Completo

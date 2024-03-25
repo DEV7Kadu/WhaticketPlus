@@ -158,7 +158,6 @@ EOF
 
   sleep 2
 }
-
 #######################################
 # Ask for file location containing
 # multiple URL for streaming.
