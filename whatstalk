@@ -16,7 +16,7 @@ PROJECT_ROOT="$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )"
 source "${PROJECT_ROOT}"/variables/manifest.sh
 source "${PROJECT_ROOT}"/utils/manifest.sh
 source "${PROJECT_ROOT}"/lib/manifest.sh
- 
+
 # user configs file
 if [[ ! -e "${PROJECT_ROOT}"/config ]]; then
   cat << EOF > "${PROJECT_ROOT}"/config
@@ -36,8 +36,7 @@ source "${PROJECT_ROOT}"/config
 # interactive CLI
 inquiry_options
 
-if [[ $option == "1" ]]; then
-  # dependencies related
+# dependencies related
 system_update
 system_set_timezone
 system_set_ufw
@@ -73,15 +72,3 @@ frontend_nginx_setup
 system_nginx_conf
 system_nginx_restart
 system_certbot_setup
-fi
-
-if [[ $option == "2" ]]; then
-  system_unzip
-  move_whaticket_files
-  frontend_conf1
-  frontend_node_dependencies1
-  frontend_restart_pm2
-  backend_node_dependencies1
-  backend_db_migrate1
-  backend_restart_pm2
-fi

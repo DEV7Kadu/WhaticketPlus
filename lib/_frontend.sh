@@ -150,9 +150,9 @@ move_whaticket_files() {
 
   sudo su - root <<EOF
 
-  sudo rm -r /home/deploywhatstalk/whaticket/frontend/automatizaai
+  sudo rm -r /home/deploywhatstalk/whaticket/frontend/whatstalk
   sudo rm -r /home/deploywhatstalk/whaticket/frontend/package.json
-  sudo rm -r /home/deploywhatstalk/whaticket/backend/automatizaai
+  sudo rm -r /home/deploywhatstalk/whaticket/backend/whatstalk
   sudo rm -r /home/deploywhatstalk/whaticket/backend/package.json
   rm -rf /home/deploywhatstalk/whaticket/frontend/node_modules
   rm -rf /home/deploywhatstalk/whaticket/backend/node_modules
@@ -253,7 +253,7 @@ EOF
   sleep 2
 
   sudo su - deploywhatstalk <<EOF
-  cd /home/deployautomatizaai/whaticket/backend
+  cd /home/deploywhatstalk/whaticket/backend
   npx sequelize db:migrate
   
 EOF
