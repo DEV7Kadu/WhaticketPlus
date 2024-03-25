@@ -1,0 +1,8 @@
+deploy_password=X32023EKzU=
+mysql_root_password=zuSd9mHPXn3202SxrgZ8CojW+5MQtJg=
+db_pass=S3202m097dS=
+jwt_secret=uSd9mHPXnSxrgZ8Co
+jwt_refresh_secret=uSd9mHPXnSxrgZ8Co
+deploy_email=deploy@whatstalk.com.br
+db_user=root
+db_name=whaticket
