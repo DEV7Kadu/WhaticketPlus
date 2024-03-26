@@ -6,7 +6,7 @@
 
 <p>&nbsp;</p>
 
-<h1 dir="auto"><strong>Debian 11</strong></h1>
+<h1 dir="auto"><strong>Debian 11 (Recomendado)</strong></h1>
 <h1 dir="auto"><strong>Ubuntu 20.04</strong></h1>
 
 <p>&nbsp;</p>
