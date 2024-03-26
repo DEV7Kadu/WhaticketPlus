@@ -2,14 +2,14 @@
 
 <p>&nbsp;</p>
 
-<h3 dir="auto">Instala&ccedil;&atilde;o</h3>
-
 <p>&nbsp;</p>
 
 <h1 dir="auto"><strong>Debian 11 (Recomendado)</strong></h1>
 <h1 dir="auto"><strong>Ubuntu 20.04</strong></h1>
 
 <p>&nbsp;</p>
+
+<h3 dir="auto">Instala&ccedil;&atilde;o</h3>
 
 <p dir="auto">FAZENDO DOWNLOAD DO INSTALADOR &amp; INICIANDO A PRIMEIRA INSTALA&Ccedil;&Atilde;O:<br />
 
