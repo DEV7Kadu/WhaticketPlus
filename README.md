@@ -1,4 +1,4 @@
-<h1 dir="auto"><strong>Whaticket&nbsp;</strong>+&nbsp;<strong>Baileys</strong>&nbsp;6.6.0&nbsp;<strong>SaaS</strong></h1>
+<h1 dir="auto"><strong>Whaticket SaaS&nbsp;</strong>+&nbsp;<strong>Baileys</strong>&nbsp;6.6.0&nbsp;<strong>(2024)</strong></h1>
 
 <p>&nbsp;</p>
 
