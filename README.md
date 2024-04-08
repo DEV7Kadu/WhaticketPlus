@@ -26,6 +26,10 @@
 
 ➡️ ChatGPT (OpenAI)
 
+➡️ Asaas
+
+➡️ MK-AUTH
+
 <p>&nbsp;</p>
 <h3 dir="auto">Instala&ccedil;&atilde;o</h3>
 
@@ -117,10 +121,6 @@
 🔷 Setores & Filas
 
 🔷 Recuperação de Senha por E-Mail
-
-🔷 Integração Asaas
-
-🔷 Integração MK-AUTH
 
 <p>&nbsp;</p>
 <h2 dir="auto">Recursos via API:</h2>
