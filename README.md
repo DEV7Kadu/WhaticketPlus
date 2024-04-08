@@ -8,7 +8,23 @@
 <h1 dir="auto"><strong>Ubuntu 20.04</strong></h1>
 
 <p>&nbsp;</p>
+<h3 dir="auto">Integrações</h3>
 
+➡️ WhatsApp
+
+➡️ Facebook
+
+➡️ Instagram
+
+➡️ DialogFlow
+
+➡️ N8N
+
+➡️ Typebot
+
+➡️ WebHooks
+
+<p>&nbsp;</p>
 <h3 dir="auto">Instala&ccedil;&atilde;o</h3>
 
 <p dir="auto">FAZENDO DOWNLOAD DO INSTALADOR &amp; INICIANDO A PRIMEIRA INSTALA&Ccedil;&Atilde;O:<br />
