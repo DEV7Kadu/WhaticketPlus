@@ -34,7 +34,57 @@
 
 <p>&nbsp;</p>
 
+<h2 dir="auto">Recursos:</h2>
+
+<p dir="auto">&nbsp;</p>
+
+📲 Adicionar Participantes: Integre novos participantes facilmente em conversas existentes.
+
+🤖 Chatbot Inteligente: Configure seu chatbot por setor para respostas automatizadas.
+
+🗓️ Agendamento Recorrente: Automatize o envio de mensagens agendadas por contatos.
+
+🏷️ Tags Personalizadas: Adicione tags para um melhor gerenciamento e organização.
+
+📈 Gerenciamento de Leads: Capture leads automaticamente ao receberem contato.
+
+🏢 Gerenciamento Empresarial: Cadastre múltiplas empresas para uma gestão ampla.
+
+✉️ Mensagens Rápidas: Crie mensagens pré-configuradas para respostas ágeis.
+
+📁 Envio de Arquivos: Compartilhe imagens, vídeos, documentos e áudios de forma prática.
+
+📢 Campanhas Personalizadas: Crie campanhas com agendamento e utilize variáveis para comunicações personalizadas.
+
+💼 Integração Financeira: Integre com sistemas de gestão financeira para uma visão completa.
+
+🌟 Atendimento Organizado: Adicione vários atendentes e defina por setores para uma gestão organizada.
 <p>&nbsp;</p>
+<h2 dir="auto">Recursos via API:</h2>
+
+✅ Enviar Mensagens
+
+✅ Criar Empresas
+
+✅ Criar Contatos
+
+✅ Listar Contatos
+
+✅ Atualizar Contatos
+
+✅ Excluir Contatos
+
+✅ Criar Tags
+
+✅ Listar Tags
+
+✅ Excluir Tags
+
+✅ Criar Agendamento
+
+✅ Listar Agendamento
+
+✅ Excluir Agendamento
 
 <p>&nbsp;</p>
 
@@ -52,6 +102,7 @@
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
 <h2 dir="auto" style="font-style:italic">Seja um revendedor desse sistema, me chame no WhatsApp:<br />
 📲&nbsp;<a href="https://api.whatsapp.com/send/?1=pt_BR&amp;phone=5551992919891" rel="nofollow">+55 (51) 999291-9891</a></h2>
 
