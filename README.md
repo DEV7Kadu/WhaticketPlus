@@ -75,6 +75,8 @@
 💼 Integração Financeira: Integre com sistemas de gestão financeira para uma visão completa.
 
 🌟 Atendimento Organizado: Adicione vários atendentes e defina por setores para uma gestão organizada.
+
+📋 Kanban: Visualize e gerencie seus Tickets de forma eficiente através do método Kanban.
 <p>&nbsp;</p>
 <h2 dir="auto">Recursos via API:</h2>
 
