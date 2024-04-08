@@ -120,7 +120,7 @@
 
 🔷 Integração Asaas
 
-🔷 Integração IXCSoft
+🔷 Integração MK-AUTH
 
 <p>&nbsp;</p>
 <h2 dir="auto">Recursos via API:</h2>
