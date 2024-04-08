@@ -77,6 +77,49 @@
 🌟 Atendimento Organizado: Adicione vários atendentes e defina por setores para uma gestão organizada.
 
 📋 Kanban: Visualize e gerencie seus Tickets de forma eficiente através do método Kanban.
+
+➕
+
+🔷 Atendentes
+
+🔷 Domínio Próprio
+
+🔷 Cores Personalizadas
+
+🔷 Logotipo / Marca Própria
+
+🔷 Aplicativo PWA
+
+🔷 Dashboard
+
+🔷 Estatísticas
+
+🔷 Mensagens Agendadas com Anexo
+
+🔷 Respostas Rápidas com Anexo
+
+🔷 Agendamento Recorrente
+
+🔷 Campanhas Recorrentes
+
+🔷 Carteira de Cliente
+
+🔷 Chat Interno
+
+🔷 Tarefas
+
+🔷 Campanhas
+
+🔷 Áudio Gravado na Hora
+
+🔷 Setores & Filas
+
+🔷 Recuperação de Senha por E-Mail
+
+🔷 Integração Asaas
+
+🔷 Integração IXCSoft
+
 <p>&nbsp;</p>
 <h2 dir="auto">Recursos via API:</h2>
 
