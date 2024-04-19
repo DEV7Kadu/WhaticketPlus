@@ -62,6 +62,8 @@
 
 <p dir="auto">&nbsp;</p>
 
+🔊 Transcrição de Áudio: Transforme mensagens de voz em texto.
+
 📲 Adicionar Participantes: Integre novos participantes facilmente em conversas existentes.
 
 🤖 Chatbot Inteligente: Configure seu chatbot por setor para respostas automatizadas.
