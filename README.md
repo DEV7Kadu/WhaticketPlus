@@ -92,6 +92,8 @@
 
 🔷 Atendentes
 
+🔷 Modo Claro/Escuro
+
 🔷 Domínio Próprio
 
 🔷 Cores Personalizadas
