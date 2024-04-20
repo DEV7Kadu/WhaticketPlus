@@ -8,12 +8,36 @@
 <h1 dir="auto"><strong>Ubuntu 20.04</strong></h1>
 
 <p>&nbsp;</p>
+<h3 dir="auto">Integrações</h3>
 
+➡️ WhatsApp
+
+➡️ Facebook
+
+➡️ Instagram
+
+➡️ DialogFlow
+
+➡️ N8N
+
+➡️ Typebot
+
+➡️ WebHooks
+
+➡️ ChatGPT (OpenAI)
+
+➡️ Asaas
+
+➡️ MK-AUTH
+
+➡️ SMTP
+
+<p>&nbsp;</p>
 <h3 dir="auto">Instala&ccedil;&atilde;o</h3>
 
 <p dir="auto">FAZENDO DOWNLOAD DO INSTALADOR &amp; INICIANDO A PRIMEIRA INSTALA&Ccedil;&Atilde;O:<br />
 
-<code>apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf Whaticket-Saas-2024 && sudo git clone https://github.com/carloseduardoback/Whaticket-Saas-2024.git && cd Whaticket-Saas-2024 && sudo chmod +x ./whatstalk && ./whatstalk</code><br />
+<code>apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf Whaticket-Saas-2024 && sudo git clone https://github.com/DEV7Kadu/Whaticket-Saas-2024.git && cd Whaticket-Saas-2024 && sudo chmod +x ./whatstalk && ./whatstalk</code><br />
 &nbsp;</p>
 
 <h2 dir="auto">Para a instala&ccedil;&atilde;o voc&ecirc; vai precisar:</h2>
@@ -34,7 +58,102 @@
 
 <p>&nbsp;</p>
 
+<h2 dir="auto">Recursos:</h2>
+
+<p dir="auto">&nbsp;</p>
+
+🔊 Transcrição de Áudio: Transforme mensagens de voz em texto.
+
+📲 Adicionar Participantes: Integre novos participantes facilmente em conversas existentes.
+
+🤖 Chatbot Inteligente: Configure seu chatbot por setor para respostas automatizadas.
+
+🗓️ Agendamento Recorrente: Automatize o envio de mensagens agendadas por contatos.
+
+🏷️ Tags Personalizadas: Adicione tags para um melhor gerenciamento e organização.
+
+📈 Gerenciamento de Leads: Capture leads automaticamente ao receberem contato.
+
+🏢 Gerenciamento Empresarial: Cadastre múltiplas empresas para uma gestão ampla.
+
+✉️ Mensagens Rápidas: Crie mensagens pré-configuradas para respostas ágeis.
+
+📁 Envio de Arquivos: Compartilhe imagens, vídeos, documentos e áudios de forma prática.
+
+📢 Campanhas Personalizadas: Crie campanhas com agendamento e utilize variáveis para comunicações personalizadas.
+
+💼 Integração Financeira: Integre com sistemas de gestão financeira para uma visão completa.
+
+🌟 Atendimento Organizado: Adicione vários atendentes e defina por setores para uma gestão organizada.
+
+📋 Kanban: Visualize e gerencie seus Tickets de forma eficiente através do método Kanban.
+
+➕
+
+🔷 Atendentes
+
+🔷 Modo Claro/Escuro
+
+🔷 Domínio Próprio
+
+🔷 Cores Personalizadas
+
+🔷 Logotipo / Marca Própria
+
+🔷 Aplicativo PWA
+
+🔷 Dashboard
+
+🔷 Estatísticas
+
+🔷 Mensagens Agendadas com Anexo
+
+🔷 Respostas Rápidas com Anexo
+
+🔷 Agendamento Recorrente
+
+🔷 Campanhas Recorrentes
+
+🔷 Carteira de Cliente
+
+🔷 Chat Interno
+
+🔷 Tarefas
+
+🔷 Campanhas
+
+🔷 Áudio Gravado na Hora
+
+🔷 Setores & Filas
+
+🔷 Recuperação de Senha por E-Mail
+
 <p>&nbsp;</p>
+<h2 dir="auto">Recursos via API:</h2>
+
+✅ Enviar Mensagens
+
+✅ Criar Empresas
+
+✅ Criar Contatos
+
+✅ Listar Contatos
+
+✅ Atualizar Contatos
+
+✅ Excluir Contatos
+
+✅ Criar Tags
+
+✅ Listar Tags
+
+✅ Excluir Tags
+
+✅ Criar Agendamento
+
+✅ Listar Agendamento
+
+✅ Excluir Agendamento
 
 <p>&nbsp;</p>
 
@@ -52,6 +171,7 @@
 
 <p>&nbsp;</p>
 
+<p>&nbsp;</p>
 <h2 dir="auto" style="font-style:italic">Seja um revendedor desse sistema, me chame no WhatsApp:<br />
 📲&nbsp;<a href="https://api.whatsapp.com/send/?1=pt_BR&amp;phone=5551992919891" rel="nofollow">+55 (51) 999291-9891</a></h2>
 
