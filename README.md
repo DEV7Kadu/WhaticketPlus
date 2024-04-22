@@ -157,6 +157,17 @@
 
 <p>&nbsp;</p>
 
+
+## Isenção de Responsabilidade
+
+Este projeto não é afiliado, associado, autorizado, endossado ou de qualquer forma oficialmente conectado ao WhatsApp ou a qualquer uma de suas subsidiárias ou afiliadas. O site oficial do WhatsApp pode ser encontrado em https://whatsapp.com. “WhatsApp”, bem como nomes, marcas, emblemas e imagens relacionados são marcas registradas de seus respectivos proprietários.
+
+## GitHub
+
+Codigo baseado no Whaticket Community de:
+-   [Cassio Santos no GitHub](https://github.com/canove/whaticket)
+
+
 <h1 dir="auto">Suporte</h1>
 
 <p>&nbsp;</p>
