@@ -166,6 +166,8 @@ Este projeto não é afiliado, associado, autorizado, endossado ou de qualquer f
 
 Codigo baseado no Whaticket Community de:
 -   [Cassio Santos no GitHub](https://github.com/canove/whaticket)
+&
+-   [Repositório Baileys - Typescript/Javascript WhatsApp Web API](https://github.com/WhiskeySockets/Baileys)
 
 
 <h1 dir="auto">Suporte</h1>
