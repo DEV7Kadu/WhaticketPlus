@@ -32,6 +32,8 @@
 
 ➡️ SMTP
 
+➡️ Cloudflare
+
 <p>&nbsp;</p>
 <h3 dir="auto">Instala&ccedil;&atilde;o</h3>
 
