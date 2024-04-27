@@ -26,7 +26,7 @@
 
 ➡️ ChatGPT (OpenAI)
 
-➡️ Asaas
+➡️ Gerencianet/Efí
 
 ➡️ MK-AUTH
 
