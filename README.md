@@ -28,7 +28,7 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 ## 💿 Instalação
 
 ```bash
-  apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf Whaticket-Saas-2024 && sudo git clone https://github.com/DEV7Kadu/Whaticket-Saas-2024.git && cd Whaticket-Saas-2024 && sudo chmod +x ./whatstalk && ./whatstalk
+  apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf Whaticket-Saas-2024 && sudo git clone https://github.com/DEV7Kadu/WhaticketPlus && cd Whaticket-Saas-2024 && sudo chmod +x ./whatstalk && ./whatstalk
 ```
 
 <br /><br />
