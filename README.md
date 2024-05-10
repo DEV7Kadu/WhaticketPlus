@@ -2,7 +2,7 @@
 
 ## 🚀 Whaticket Plus
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet mi vitae urna egestas faucibus ac vitae ligula. Pellentesque mollis, augue eget lacinia vehicula, sapien magna commodo ex, ac feugiat ipsum sapien vitae metus. Duis ac sapien lectus. Quisque scelerisque iaculis bibendum.
+Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, que permite multiusuários na mesma conta do WhatsApp. Com integração ao DialogFlow, N8N, Typebot, WebHooks, Facebook e Instagram.
 
 <br /><br />
 
