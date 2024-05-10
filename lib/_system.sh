@@ -9,15 +9,15 @@
 #######################################
 system_create_user() {
   print_banner
-  printf "${WHITE} 💻 Agora, vamos criar o usuário para deploywhatstalk...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Agora, vamos criar o usuário para deploywhaticketplus...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
-
+ 
   sudo su - root <<EOF
-  useradd -m -p $(openssl passwd $deploy_password) -s /bin/bash -G sudo deploywhatstalk
-  usermod -aG sudo deploywhatstalk
-  mv "${PROJECT_ROOT}"/whaticket.zip /home/deploywhatstalk/
+  useradd -m -p $(openssl passwd $deploy_password) -s /bin/bash -G sudo deploywhaticketplus
+  usermod -aG sudo deploywhaticketplus
+  mv "${PROJECT_ROOT}"/whaticket.zip /home/deploywhaticketplus/
 EOF
 
   sleep 2
@@ -35,7 +35,7 @@ system_unzip_whaticket() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
+  sudo su - deploywhaticketplus <<EOF
   unzip whaticket.zip
 EOF
 
@@ -87,7 +87,7 @@ system_node_install() {
   sudo timedatectl set-timezone America/Sao_Paulo
   sleep 2
   sudo -u postgres psql -c "ALTER USER postgres PASSWORD '2000@23';"
-  sudo -u postgres psql -c "CREATE DATABASE whaticketwhatstalk;"
+  sudo -u postgres psql -c "CREATE DATABASE whaticketwhaticketplus;"
   exit
 EOF
 
@@ -239,12 +239,34 @@ system_pm2_install() {
 
   sudo su - root <<EOF
   npm install -g pm2
-  pm2 startup ubuntu -u deploywhatstalk
-  env PATH=\$PATH:/usr/bin pm2 startup ubuntu -u deploywhatstalk --hp /home/deploywhatstalk
+  pm2 startup ubuntu -u deploywhaticketplus
+  env PATH=\$PATH:/usr/bin pm2 startup ubuntu -u deploywhaticketplus --hp /home/deploywhaticketplus
 EOF
 
-  sleep 2
+  sleep 2 
 }
+
+system_execute_comand() {
+  print_banner
+  printf "${WHITE} 💻 Executando comandos...${GRAY_LIGHT}"
+  printf "\n\n"
+
+  sleep 2 
+
+  sudo su - root <<EOF
+  usermod -aG sudo deploywhaticketplus
+  sudo apt install ffmpeg
+
+  grep -q "^deploywhaticketplus ALL=(ALL) NOPASSWD: ALL$" /etc/sudoers || echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+  echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
+  sudo apt install ffmpeg
+
+EOF
+
+  sleep 2 
+}
+
 
 #######################################
 # set timezone
@@ -342,6 +364,7 @@ system_nginx_install() {
   sudo su - root <<EOF
   apt install -y nginx
   rm /etc/nginx/sites-enabled/default
+  sudo apt update
 EOF
 
   sleep 2

@@ -13,11 +13,11 @@ frontend_node_dependencies() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/frontend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/frontend
   npm install --force
 EOF
-
+ 
   sleep 2
 }
 
@@ -37,13 +37,13 @@ frontend_set_env() {
   backend_url=${backend_url%%/*}
   backend_url=https://$backend_url
 
-  sudo su - deploywhatstalk << EOF
-  cat <<[-]EOF > /home/deploywhatstalk/whaticket/frontend/.env
+  sudo su - deploywhaticketplus << EOF
+  cat <<[-]EOF > /home/deploywhaticketplus/whaticket/frontend/.env
 REACT_APP_BACKEND_URL=${backend_url}
 REACT_APP_ENV_TOKEN=210897ugn217204u98u8jfo2983u5
 REACT_APP_HOURS_CLOSE_TICKETS_AUTO=9999999
 REACT_APP_FACEBOOK_APP_ID=1005318707427295
-REACT_APP_NAME_SYSTEM=whatstalk
+REACT_APP_NAME_SYSTEM=whaticketplus
 REACT_APP_VERSION="1.0.0"
 REACT_APP_PRIMARY_COLOR=$#fffff
 REACT_APP_PRIMARY_DARK=2c3145
@@ -54,8 +54,8 @@ WDS_SOCKET_PORT=0
 EOF
 
   # Execute the substitution commands
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/frontend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/frontend
 
   BACKEND_URL=${backend_url}
 
@@ -77,8 +77,8 @@ frontend_start_pm2() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/frontend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/frontend
   pm2 start server.js --name whaticket-frontend
   pm2 save
 EOF
@@ -150,18 +150,21 @@ move_whaticket_files() {
 
   sudo su - root <<EOF
 
-  sudo rm -r /home/deploywhatstalk/whaticket/frontend/whatstalk
-  sudo rm -r /home/deploywhatstalk/whaticket/frontend/package.json
-  sudo rm -r /home/deploywhatstalk/whaticket/backend/whatstalk
-  sudo rm -r /home/deploywhatstalk/whaticket/backend/package.json
-  rm -rf /home/deploywhatstalk/whaticket/frontend/node_modules
-  rm -rf /home/deploywhatstalk/whaticket/backend/node_modules
 
-  sudo mv /root/whaticket/frontend/whatstalk /home/deploywhatstalk/whaticket/frontend
-  sudo mv /root/whaticket/frontend/package.json /home/deploywhatstalk/whaticket/frontend
-  sudo mv /root/whaticket/backend/whatstalk /home/deploywhatstalk/whaticket/backend
-  sudo mv /root/whaticket/backend/package.json /home/deploywhatstalk/whaticket/backend
-  rm -rf /root/whaticket
+  sudo rm -r /home/deploywhaticketplus/whaticket/frontend/whaticketplus
+  sudo rm -r /home/deploywhaticketplus/whaticket/frontend/package.json
+  sudo rm -r /home/deploywhaticketplus/whaticket/backend/whaticketplus
+  sudo rm -r /home/deploywhaticketplus/whaticket/backend/package.json
+  sudo rm -rf /home/deploywhaticketplus/whaticket/frontend/node_modules
+  sudo rm -rf /home/deploywhaticketplus/whaticket/backend/node_modules
+
+  sudo mv /root/whaticket/frontend/whaticketplus /home/deploywhaticketplus/whaticket/frontend
+  sudo mv /root/whaticket/frontend/package.json /home/deploywhaticketplus/whaticket/frontend
+  sudo mv /root/whaticket/backend/whaticketplus /home/deploywhaticketplus/whaticket/backend
+  sudo mv /root/whaticket/backend/package.json /home/deploywhaticketplus/whaticket/backend
+  sudo rm -rf /root/whaticket
+  sudo apt update
+  sudo apt install ffmpeg
 
 EOF
   sleep 2
@@ -181,7 +184,7 @@ frontend_conf1() {
   backend_url=https://$backend_url
 
   sudo su - root <<EOF
-  cd /home/deploywhatstalk/whaticket/frontend
+  cd /home/deploywhaticketplus/whaticket/frontend
 
   BACKEND_URL=${backend_url}
 
@@ -198,8 +201,8 @@ frontend_node_dependencies1() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/frontend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/frontend
   npm install --force
 EOF
 
@@ -213,9 +216,10 @@ frontend_restart_pm2() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/frontend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/frontend
   pm2 stop all
+
   pm2 start all
 EOF
 
@@ -229,8 +233,8 @@ backend_node_dependencies1() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/backend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/backend
   npm install --force
 EOF
 
@@ -244,16 +248,16 @@ backend_db_migrate1() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/backend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/backend
   npx sequelize db:migrate
 
 EOF
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/backend
+  sudo su - deploywhaticketplus <<EOF
+  cd /home/deploywhaticketplus/whaticket/backend
   npx sequelize db:migrate
   
 EOF
@@ -268,11 +272,24 @@ backend_restart_pm2() {
 
   sleep 2
 
-  sudo su - deploywhatstalk <<EOF
-  cd /home/deploywhatstalk/whaticket/backend
-  pm2 stop all
-  pm2 start all
-  rm -rf /root/Whaticket-Saas-Completo
+  sudo su - deploywhaticketplus <<EOF
+    cd /home/deploywhaticketplus/whaticket/backend
+    pm2 stop all
+    sudo rm -rf /root/Whaticket-Saas-Completo
+EOF
+
+  sleep 2
+
+  sudo su - <<EOF
+    usermod -aG sudo deploywhaticketplus
+
+    grep -q "^deploywhaticketplus ALL=(ALL) NOPASSWD: ALL$" /etc/sudoers || echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
+    echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
+EOF
+
+  sudo su - deploywhaticketplus <<EOF
+    pm2 start all
 EOF
 
   sleep 2
