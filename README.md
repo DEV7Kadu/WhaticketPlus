@@ -35,13 +35,46 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 
 ## ✅ Recursos
 
-🟢 Atendentes  🟢 Modo Claro/Escuro  🟢 Domínio Próprio  🟢 Cores Personalizadas  🟢 Logotipo/Marca Própria  🟢 Aplicativo PWA  🟢 Domínio Próprio  🟢 Cores Personalizadas  🟢 Logotipo / Marca Própria  🟢 Aplicativo PWA  🟢 Dashboard  🟢 Estatísticas  🟢 Mensagens Agendadas com Anexo  🟢 Respostas Rápidas com Anexo  🟢 Agendamento Recorrente  🟢 Campanhas Recorrentes  🟢 Carteira de Cliente  🟢 Chat Interno  🟢 Tarefas  🟢 Campanhas  🟢 Áudio Gravado na Hora  🟢 Setores & Filas  🟢 Recuperação de Senha por E-Mail
+🟢 Atendentes  
+🟢 Modo Claro/Escuro  
+🟢 Domínio Próprio  
+🟢 Cores Personalizadas  
+🟢 Logotipo/Marca Própria  
+🟢 Aplicativo PWA  
+🟢 Domínio Próprio  
+🟢 Cores Personalizadas  
+🟢 Logotipo / Marca Própria  
+🟢 Aplicativo PWA  
+🟢 Dashboard  
+🟢 Estatísticas  
+🟢 Mensagens Agendadas com Anexo  
+🟢 Respostas Rápidas com Anexo  
+🟢 Agendamento Recorrente  
+🟢 Campanhas Recorrentes  
+🟢 Carteira de Cliente  
+🟢 Chat Interno  
+🟢 Tarefas  
+🟢 Campanhas  
+🟢 Áudio Gravado na Hora  
+🟢 Setores & Filas  
+🟢 Recuperação de Senha por E-Mail
 
 <br /><br />
 
 ## ✅ Recursos via API
 
-🟢 Enviar Mensagens  🟢 Criar Empresas  🟢 Criar Contatos  🟢 Listar Contatos  🟢 Atualizar Contatos  🟢 Excluir Contatos  🟢 Criar Tags  🟢 Listar Tags  🟢 Excluir Tags  🟢 Criar Agendamento  🟢 Listar Agendamento  🟢 Excluir Agendamento
+🟢 Enviar Mensagens  
+🟢 Criar Empresas  
+🟢 Criar Contatos  
+🟢 Listar Contatos  
+🟢 Atualizar Contatos  
+🟢 Excluir Contatos  
+🟢 Criar Tags  
+🟢 Listar Tags  
+🟢 Excluir Tags  
+🟢 Criar Agendamento  
+🟢 Listar Agendamento  
+🟢 Excluir Agendamento
 
 <br /><br />
 
