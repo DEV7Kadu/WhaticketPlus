@@ -91,7 +91,7 @@ Codigo baseado no Whaticket Community de:
     <li><a href="https://github.com/canove/whaticket-community" target="_blank">Cassio Santos no GitHub</a></li>
 <br /><br />
 Com as seguintes Ferramentas de Apoio:
-    <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Repositório Baileys - Typescript/Javascript WhatsApp Web API</a></li>
+    <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys - WhatsApp Web API</a></li>
     <li><a href="https://github.com/" target="_blank">Redis</a></li>
     <li><a href="https://github.com/" target="_blank">Postgres</a></li>
     <li><a href="https://github.com/" target="_blank">Docker</a></li>
