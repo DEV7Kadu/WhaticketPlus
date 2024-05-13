@@ -35,13 +35,45 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 
 ## ✅ Recursos
 
-🟢 Atendentes  🟢 Modo Claro/Escuro  🟢 Domínio Próprio  🟢 Cores Personalizadas  🟢 Logotipo/Marca Própria  🟢 Aplicativo PWA  🟢 Domínio Próprio  🟢 Cores Personalizadas  🟢 Logotipo / Marca Própria  🟢 Aplicativo PWA  🟢 Dashboard  🟢 Estatísticas  🟢 Mensagens Agendadas com Anexo  🟢 Respostas Rápidas com Anexo  🟢 Agendamento Recorrente  🟢 Campanhas Recorrentes  🟢 Carteira de Cliente  🟢 Chat Interno  🟢 Tarefas  🟢 Campanhas  🟢 Áudio Gravado na Hora  🟢 Setores & Filas  🟢 Recuperação de Senha por E-Mail
+🟢 Atendentes  
+🟢 Modo Claro/Escuro    
+🟢 Cores Personalizadas  
+🟢 Logotipo/Marca Própria  
+🟢 Aplicativo PWA  
+🟢 Domínio Próprio  
+🟢 Cores Personalizadas  
+🟢 Logotipo / Marca Própria  
+🟢 Aplicativo PWA  
+🟢 Dashboard  
+🟢 Estatísticas  
+🟢 Mensagens Agendadas com Anexo  
+🟢 Respostas Rápidas com Anexo  
+🟢 Agendamento Recorrente  
+🟢 Campanhas Recorrentes  
+🟢 Carteira de Cliente  
+🟢 Chat Interno  
+🟢 Tarefas  
+🟢 Campanhas  
+🟢 Áudio Gravado na Hora  
+🟢 Setores & Filas  
+🟢 Recuperação de Senha por E-Mail
 
 <br /><br />
 
 ## ✅ Recursos via API
 
-🟢 Enviar Mensagens  🟢 Criar Empresas  🟢 Criar Contatos  🟢 Listar Contatos  🟢 Atualizar Contatos  🟢 Excluir Contatos  🟢 Criar Tags  🟢 Listar Tags  🟢 Excluir Tags  🟢 Criar Agendamento  🟢 Listar Agendamento  🟢 Excluir Agendamento
+🟢 Enviar Mensagens  
+🟢 Criar Empresas  
+🟢 Criar Contatos  
+🟢 Listar Contatos  
+🟢 Atualizar Contatos  
+🟢 Excluir Contatos  
+🟢 Criar Tags  
+🟢 Listar Tags  
+🟢 Excluir Tags  
+🟢 Criar Agendamento  
+🟢 Listar Agendamento  
+🟢 Excluir Agendamento
 
 <br /><br />
 
@@ -57,7 +89,19 @@ Codigo baseado no Whaticket Community de:
 <nav>
   <ul>
     <li><a href="https://github.com/canove/whaticket-community" target="_blank">Cassio Santos no GitHub</a></li>
-    <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Repositório Baileys - Typescript/Javascript WhatsApp Web API</a></li>
+
+<br /><br />
+
+## 🛠️ Com as seguintes Ferramentas de Apoio:
+<nav>
+    <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys - WhatsApp Web API</a></li>
+    <li><a href="https://github.com/redis/redis" target="_blank">Redis</a></li>
+    <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL</a></li>
+    <li><a href="https://github.com/docker" target="_blank">Docker</a></li>
+    <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx</a></li>
+    <li><a href="https://github.com/nodejs/node" target="_blank">Node</a></li>
+    <li><a href="https://github.com/Unitech/pm2" target="_blank">PM2</a></li>
+    <li><a href="https://github.com/certbot/certbot" target="_blank">Certbot</a></li>
   </ul>
 </nav>
 
