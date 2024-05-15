@@ -8,7 +8,7 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 
 ## 📌 Integrações
 
-<img src="https://i.imgur.com/ybmNssr.png" />
+<img src="https://i.postimg.cc/7LSKSpWx/Group-15.png" />
 
 <br /><br />
 
@@ -28,7 +28,7 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 ## 💿 Instalação
 
 ```bash
-  apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf WhaticketPlus && sudo git clone https://github.com/DEV7Kadu/WhaticketPlus && cd WhaticketPlus && sudo chmod +x ./whaticktplus && ./whaticktplus
+  apt update && apt upgrade -y && apt install sudo git -y && sudo rm -rf WhaticketPlus && sudo git clone https://github.com/DEV7Kadu/WhaticketPlus && cd WhaticketPlus && sudo chmod +x ./whaticketplus && ./whaticketplus
 ```
 
 <br /><br />
