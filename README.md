@@ -110,4 +110,4 @@ Codigo baseado no Whaticket Community de:
 
 ## 📭 Suporte e Contato
 
-Entre em contato através do <a href="https://wa.me/5551992919891" target="_blank">Whatsapp</a> ou <a href="mailto:contato@whatstalk.top" target="_blank">e-mail</a>.
+Entre em contato através do <a href="https://wa.me/5551992919891" target="_blank">Whatsapp</a> ou <a href="mailto:whaticketplus@gmail.com" target="_blank">E-mail</a>.
