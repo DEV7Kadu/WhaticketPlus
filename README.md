@@ -51,6 +51,7 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 🟢 Agendamento Recorrente  
 🟢 Campanhas Recorrentes  
 🟢 Carteira de Cliente  
+🟢 Gerenciamento de Grupos
 🟢 Chat Interno  
 🟢 Tarefas  
 🟢 Campanhas  
