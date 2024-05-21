@@ -14,7 +14,7 @@ Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, qu
 
 ## 🔧 Requisitos
 
-<img src="https://i.imgur.com/i6SZMWa.png" style="height: 60px;" />
+<img src="https://i.postimg.cc/kGRpDYJC/Group-27.png" style="height: 275px;" />
 
 <nav>
   <ul>
