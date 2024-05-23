@@ -2,7 +2,11 @@
 
 ## 🚀 Whaticket Plus
 
-Um sistema de tickets extremamente completo baseado em mensagens do WhatsApp, que permite multiusuários na mesma conta do WhatsApp. Com integração ao DialogFlow, N8N, Typebot, WebHooks, Facebook e Instagram.
+Experimente gratuitamente nosso sistema de tickets via WhatsApp e descubra como a integração com DialogFlow, N8N, Typebot, WebHooks, Facebook e Instagram pode transformar a gestão de sua comunicação. 
+
+Desenvolvido por especialistas em automação e atendimento ao cliente, nosso sistema de tickets é recomendado por profissionais que entendem a importância de uma comunicação eficiente. Com integração ao premiado Typebot, N8N e outras ferramentas de ponta, você está em boas mãos.
+
+Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. Por isso, nosso sistema de tickets via WhatsApp é projetado para facilitar sua vida, permitindo que você foque no que realmente importa: atender bem seus clientes.
 
 <br /><br />
 
@@ -111,5 +115,7 @@ Codigo baseado no Whaticket Community de:
 ## 🙋 Suporte e Contato
 
 Entre em contato através do <a href="https://wa.me/5551992919891" target="_blank">Whatsapp</a> ou <a href="mailto:whaticketplus@gmail.com" target="_blank">E-mail</a>.
+
+🪜
 
 [![Gráfico de histórico de estrelas](https://api.star-history.com/svg?repos=DEV7Kadu/WhaticketPlus&type=Date)](https://star-history.com/#DEV7Kadu/WhaticketPlus&Date)
