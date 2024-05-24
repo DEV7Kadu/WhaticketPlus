@@ -118,6 +118,6 @@ Entre em contato através do <a href="https://wa.me/5551992919891" target="_blan
 
 <br /><br />
 
-## Star History
+## 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=DEV7Kadu/WhaticketPlus&type=Date)](https://star-history.com/#DEV7Kadu/WhaticketPlus&Date)
