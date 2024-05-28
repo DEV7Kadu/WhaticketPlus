@@ -8,6 +8,12 @@ Desenvolvido por especialistas em automação e atendimento ao cliente, nosso si
 
 Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. Por isso, nosso sistema de tickets via WhatsApp é projetado para facilitar sua vida, permitindo que você foque no que realmente importa: atender bem seus clientes.
 
+Obs:
+Conheçam alguém que vai te oferecer o sitema pela metade do valor (um plaginador/copiador)
+Com um suporte terrivel, mas com um pixel à vista:
+https://github.com/andrew890074/WhaticketWorkflow
+Ele quer o teu dinheiro, mas nunca fará uma video chamada contigo 
+
 <br /><br />
 
 ## 📌 Integrações
