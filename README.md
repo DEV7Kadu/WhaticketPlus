@@ -13,7 +13,7 @@ Obs:
 Conheçam alguém que vai te oferecer um sitema pela metade do valor (um plaginador/copiador)
 Com um suporte terrivel, mas com um PIXEL à vista:
 https://github.com/andrew890074/WhaticketWorkflow
-Ele quer o teu dinheiro, mas nunca fará uma video chamada contigo e te culparáno final.
+Ele quer o teu dinheiro, mas nunca fará uma video chamada contigo e te culpará no final.
 
 <br /><br />
 
