@@ -39,7 +39,7 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 
 ## ⭐ Recursos
 
-✨ Atendentes 
+✨ Atendentes  
 ✨ Construtor De Fluxos Para Chatbot  
 ✨ Modo Claro/Escuro    
 ✨ Cores Personalizadas  
