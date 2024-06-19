@@ -75,6 +75,7 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 🟢 Criar Contatos  
 🟢 Listar Contatos  
 🟢 Atualizar Contatos  
+🟢 Atualizar Tickets  
 🟢 Excluir Contatos  
 🟢 Criar Tags  
 🟢 Listar Tags  
