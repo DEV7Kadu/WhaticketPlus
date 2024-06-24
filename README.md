@@ -42,6 +42,7 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 ✨ Integração com o Pixel do Facebook: Acompanhe e registre conversões com o pixel do Facebook    
 ✨ Integração com Webhook: Utilize webhooks para conectar com outros sistemas e automatizar processos   
 ✨ Construtor De Fluxos Para Chatbot     
+✨ Integração com Site: Poder receber notificações de visitas     
 ✨ Atendentes   
 ✨ Modo Claro/Escuro    
 ✨ Cores Personalizadas  
