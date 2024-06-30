@@ -39,6 +39,7 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 
 ## ⭐ Recursos
 
+✨ Dashboard Informando Dados da VPS e Consumo em Tempo Real    
 ✨ Integração com o Pixel do Facebook: Acompanhe e registre conversões com o pixel do Facebook    
 ✨ Integração com Webhook: Utilize webhooks para conectar com outros sistemas e automatizar processos   
 ✨ Construtor De Fluxos Para Chatbot     
