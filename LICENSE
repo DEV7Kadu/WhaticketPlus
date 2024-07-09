@@ -18,6 +18,7 @@ Este software não pode ser modificado de forma alguma, incluindo, mas não limi
 Isenção de Responsabilidade:
 
 Este software é fornecido "como está", sem qualquer tipo de garantia, expressa ou implícita. Os autores e detentores dos direitos não serão responsáveis por quaisquer reivindicações, danos ou outras obrigações.
+
 Legislação Aplicável:
 
 Esta licença será regida e interpretada de acordo com as leis do país de registro da Whaticket Plus, sem consideração a conflitos de disposições legais. Além disso, será observada a legislação internacional aplicável, incluindo, mas não se limitando a, tratados e convenções internacionais sobre direitos autorais e propriedade intelectual.
@@ -33,10 +34,25 @@ Esta licença será automaticamente rescindida se você violar qualquer um dos t
 Conformidade com Leis Locais:
 
 Você é responsável por cumprir todas as leis locais, estaduais, nacionais e internacionais aplicáveis ao uso do software.
-
 Suporte e Responsabilidade:
 
-Todos os problemas, suporte técnico e quaisquer questões relacionadas ao uso do software são de responsabilidade exclusiva da Whaticket Plus. Os usuários devem entrar em contato diretamente com a Whaticket Plus para qualquer necessidade de suporte ou resolução de problemas.
+Todos os problemas, suporte técnico e quaisquer questões relacionadas ao uso do software são de responsabilidade exclusiva da Whaticket Plus. Os usuários devem entrar em contato diretamente e exclusivamente com a Whaticket Plus para qualquer necessidade de suporte ou resolução de problemas.
+
+Serviços de Terceiros:
+
+O Whaticket Plus utiliza diversos serviços de terceiros para seu funcionamento, incluindo, mas não se limitando a:
+
+Baileys - WhatsApp Web API
+Redis
+PostgreSQL
+Docker
+Nginx
+Node
+PM2
+Certbot
+
+Devido à dependência desses serviços de terceiros, o Whaticket Plus não pode garantir 100% de disponibilidade ou pleno funcionamento contínuo do sistema. Eventuais falhas ou indisponibilidades dos serviços de terceiros podem impactar o desempenho e funcionamento do Whaticket Plus.
+Contudo, a Whaticket Plus se compromete a trabalhar diligentemente para resolver quaisquer problemas que surjam o mais rápido possível, prevendo possíveis falhas e corrigindo-as com a maior brevidade. Priorizamos a transparência e preferimos manter nossos clientes informados sobre quaisquer questões que possam afetar o serviço, em vez de deixar nossos clientes desinformados.
 
 Conclusão
 
