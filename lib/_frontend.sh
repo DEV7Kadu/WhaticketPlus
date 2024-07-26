@@ -13,8 +13,8 @@ frontend_node_dependencies() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/frontend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/frontend
   npm install --force
 EOF
  
@@ -37,25 +37,25 @@ frontend_set_env() {
   backend_url=${backend_url%%/*}
   backend_url=https://$backend_url
 
-  sudo su - deploywhaticketplus << EOF
-  cat <<[-]EOF > /home/deploywhaticketplus/whaticket/frontend/.env
+  sudo su - deploywhaticketpus << EOF
+  cat <<[-]EOF > /home/deploywhaticketpus/whaticket/frontend/.env
 REACT_APP_BACKEND_URL=${backend_url}
 REACT_APP_ENV_TOKEN=210897ugn217204u98u8jfo2983u5
 REACT_APP_HOURS_CLOSE_TICKETS_AUTO=9999999
 REACT_APP_FACEBOOK_APP_ID=1005318707427295
-REACT_APP_NAME_SYSTEM=whaticketplus
+REACT_APP_NAME_SYSTEM=whaticketpus
 REACT_APP_VERSION="1.0.0"
 REACT_APP_PRIMARY_COLOR=$#fffff
 REACT_APP_PRIMARY_DARK=2c3145
-REACT_APP_NUMBER_SUPPORT=51997059551
+REACT_APP_NUMBER_SUPPORT=51992919891
 SERVER_PORT=3333
 WDS_SOCKET_PORT=0
 [-]EOF
 EOF
 
   # Execute the substitution commands
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/frontend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/frontend
 
   BACKEND_URL=${backend_url}
 
@@ -77,8 +77,8 @@ frontend_start_pm2() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/frontend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/frontend
   pm2 start server.js --name whaticket-frontend
   pm2 save
 EOF
@@ -151,17 +151,17 @@ move_whaticket_files() {
   sudo su - root <<EOF
 
 
-  sudo rm -r /home/deploywhaticketplus/whaticket/frontend/whaticketplus
-  sudo rm -r /home/deploywhaticketplus/whaticket/frontend/package.json
-  sudo rm -r /home/deploywhaticketplus/whaticket/backend/whaticketplus
-  sudo rm -r /home/deploywhaticketplus/whaticket/backend/package.json
-  sudo rm -rf /home/deploywhaticketplus/whaticket/frontend/node_modules
-  sudo rm -rf /home/deploywhaticketplus/whaticket/backend/node_modules
+  sudo rm -r /home/deploywhaticketpus/whaticket/frontend/whaticketpus
+  sudo rm -r /home/deploywhaticketpus/whaticket/frontend/package.json
+  sudo rm -r /home/deploywhaticketpus/whaticket/backend/whaticketpus
+  sudo rm -r /home/deploywhaticketpus/whaticket/backend/package.json
+  sudo rm -rf /home/deploywhaticketpus/whaticket/frontend/node_modules
+  sudo rm -rf /home/deploywhaticketpus/whaticket/backend/node_modules
 
-  sudo mv /root/whaticket/frontend/whaticketplus /home/deploywhaticketplus/whaticket/frontend
-  sudo mv /root/whaticket/frontend/package.json /home/deploywhaticketplus/whaticket/frontend
-  sudo mv /root/whaticket/backend/whaticketplus /home/deploywhaticketplus/whaticket/backend
-  sudo mv /root/whaticket/backend/package.json /home/deploywhaticketplus/whaticket/backend
+  sudo mv /root/whaticket/frontend/whaticketpus /home/deploywhaticketpus/whaticket/frontend
+  sudo mv /root/whaticket/frontend/package.json /home/deploywhaticketpus/whaticket/frontend
+  sudo mv /root/whaticket/backend/whaticketpus /home/deploywhaticketpus/whaticket/backend
+  sudo mv /root/whaticket/backend/package.json /home/deploywhaticketpus/whaticket/backend
   sudo rm -rf /root/whaticket
   sudo apt update
   sudo apt install ffmpeg
@@ -184,7 +184,7 @@ frontend_conf1() {
   backend_url=https://$backend_url
 
   sudo su - root <<EOF
-  cd /home/deploywhaticketplus/whaticket/frontend
+  cd /home/deploywhaticketpus/whaticket/frontend
 
   BACKEND_URL=${backend_url}
 
@@ -201,8 +201,8 @@ frontend_node_dependencies1() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/frontend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/frontend
   npm install --force
 EOF
 
@@ -216,8 +216,8 @@ frontend_restart_pm2() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/frontend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/frontend
   pm2 stop all
 
   pm2 start all
@@ -233,8 +233,8 @@ backend_node_dependencies1() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/backend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/backend
   npm install --force
 EOF
 
@@ -248,16 +248,16 @@ backend_db_migrate1() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/backend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/backend
   npx sequelize db:migrate
 
 EOF
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-  cd /home/deploywhaticketplus/whaticket/backend
+  sudo su - deploywhaticketpus <<EOF
+  cd /home/deploywhaticketpus/whaticket/backend
   npx sequelize db:migrate
   
 EOF
@@ -272,8 +272,8 @@ backend_restart_pm2() {
 
   sleep 2
 
-  sudo su - deploywhaticketplus <<EOF
-    cd /home/deploywhaticketplus/whaticket/backend
+  sudo su - deploywhaticketpus <<EOF
+    cd /home/deploywhaticketpus/whaticket/backend
     pm2 stop all
     sudo rm -rf /root/Whaticket-Saas-Completo
 EOF
@@ -281,14 +281,14 @@ EOF
   sleep 2
 
   sudo su - <<EOF
-    usermod -aG sudo deploywhaticketplus
+    usermod -aG sudo deploywhaticketpus
 
-    grep -q "^deploywhaticketplus ALL=(ALL) NOPASSWD: ALL$" /etc/sudoers || echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+    grep -q "^deploywhaticketpus ALL=(ALL) NOPASSWD: ALL$" /etc/sudoers || echo "deploywhaticketpus ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-    echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
+    echo "deploywhaticketpus ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
 EOF
 
-  sudo su - deploywhaticketplus <<EOF
+  sudo su - deploywhaticketpus <<EOF
     pm2 start all
 EOF
 
