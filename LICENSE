@@ -8,12 +8,11 @@ Esta Licença de Uso regula os termos sob os quais você pode utilizar o softwar
 
 Uso de Licença:
 
-O uso deste software é permitido somente se você adquirir uma licença comercial válida da Whaticket Plus. Qualquer uso sem a devida licença é proibido. O software inclui uma fase de avaliação temporária e limitada, após a qual a continuidade do uso está sujeita à obtenção de uma licença paga.
+O uso deste software é permitido somente se você adquirir uma licença comercial válida da Whaticket Plus. Qualquer uso sem a devida licença é proibido. O software inclui uma fase de avaliação temporária e limitada, após a qual a continuidade do uso está sujeita à obtenção de uma licença paga. Cada licença concede somente o uso do software a uma única URL.
 
 Proibição de Cópia, Modificação e Distribuição:
 
-É estritamente proibido copiar, modificar, fundir, publicar, distribuir, sublicenciar e/ou vender cópias do código fonte ou do software.
-Este software não pode ser modificado de forma alguma, incluindo, mas não limitado a, descompilar, desmontar ou aplicar engenharia reversa.
+É estritamente proibido copiar, modificar, fundir, publicar, distribuir, sublicenciar e/ou vender cópias do código fonte ou do software. Este software não pode ser modificado de forma alguma, incluindo, mas não limitado a, descompilar, desmontar ou aplicar engenharia reversa.
 
 Isenção de Responsabilidade:
 
@@ -34,6 +33,7 @@ Esta licença será automaticamente rescindida se você violar qualquer um dos t
 Conformidade com Leis Locais:
 
 Você é responsável por cumprir todas as leis locais, estaduais, nacionais e internacionais aplicáveis ao uso do software.
+
 Suporte e Responsabilidade:
 
 Todos os problemas, suporte técnico e quaisquer questões relacionadas ao uso do software são de responsabilidade exclusiva da Whaticket Plus. Os usuários devem entrar em contato diretamente e exclusivamente com a Whaticket Plus para qualquer necessidade de suporte ou resolução de problemas.
@@ -50,9 +50,9 @@ Nginx
 Node
 PM2
 Certbot
+Meta
 
-Devido à dependência desses serviços de terceiros, o Whaticket Plus não pode garantir 100% de disponibilidade ou pleno funcionamento contínuo do sistema. Eventuais falhas ou indisponibilidades dos serviços de terceiros podem impactar o desempenho e funcionamento do Whaticket Plus.
-Contudo, a Whaticket Plus se compromete a trabalhar diligentemente para resolver quaisquer problemas que surjam o mais rápido possível, prevendo possíveis falhas e corrigindo-as com a maior brevidade. Priorizamos a transparência e preferimos manter nossos clientes informados sobre quaisquer questões que possam afetar o serviço, em vez de deixar nossos clientes desinformados.
+Devido à dependência desses serviços de terceiros, o Whaticket Plus não pode garantir 100% de disponibilidade ou pleno funcionamento contínuo do sistema. Eventuais falhas ou indisponibilidades dos serviços de terceiros podem impactar o desempenho e funcionamento do Whaticket Plus. Contudo, a Whaticket Plus se compromete a trabalhar diligentemente para resolver quaisquer problemas que surjam o mais rápido possível, prevendo possíveis falhas e corrigindo-as com a maior brevidade. Priorizamos a transparência e preferimos manter nossos clientes informados sobre quaisquer questões que possam afetar o serviço, em vez de deixar nossos clientes desinformados.
 
 Conclusão
 
