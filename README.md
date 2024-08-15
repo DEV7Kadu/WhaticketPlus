@@ -39,33 +39,33 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 
 ## ⭐ Recursos
 
- ✨ Agendamento Recorrente 
-✨ API Oficial da Meta 
-✨ Aplicativo PWA 
-✨ Áudio Gravado na Hora 
-✨ Atendentes 
-✨ Campanhas 
-✨ Campanhas Recorrentes 
-✨ Carteira de Clientes 
-✨ Chat Interno 
-✨ Construtor De Fluxos Para Chatbot 
-✨ Cores Personalizadas 
-✨ Dashboard 
-✨ Domínio Próprio 
-✨ Estatísticas 
-✨ Gerenciamento de Grupos 
-✨ Integração com o Pixel do Facebook: Acompanhe e registre conversões com o pixel do Facebook 
-✨ Integração com Site: Poder receber notificações de visitas 
-✨ Integração com Webhook: Utilize webhooks para conectar com outros sistemas e automatizar processos 
-✨ Logotipo / Marca Própria 
-✨ Marcação Fantasma em Grupos 
-✨ Mensagens Agendadas com Anexo 
-✨ Modo Claro/Escuro 
-✨ Recuperação de Senha por E-Mail 
-✨ Respostas Rápidas com Anexo /}
-✨ SaaS
-✨ Setores & Filas 
-✨ Tarefas 
+ ✨ Agendamento Recorrente  
+✨ API Oficial da Meta  
+✨ Aplicativo PWA  
+✨ Áudio Gravado na Hora  
+✨ Atendentes  
+✨ Campanhas  
+✨ Campanhas Recorrentes  
+✨ Carteira de Clientes  
+✨ Chat Interno  
+✨ Construtor De Fluxos Para Chatbot  
+✨ Cores Personalizadas  
+✨ Dashboard  
+✨ Domínio Próprio  
+✨ Estatísticas  
+✨ Gerenciamento de Grupos  
+✨ Integração com o Pixel do Facebook: Acompanhe e registre conversões com o pixel do Facebook  
+✨ Integração com Site: Poder receber notificações de visitas  
+✨ Integração com Webhook: Utilize webhooks para conectar com outros sistemas e automatizar processos  
+✨ Logotipo / Marca Própria  
+✨ Marcação Fantasma em Grupos  
+✨ Mensagens Agendadas com Anexo  
+✨ Modo Claro/Escuro  
+✨ Recuperação de Senha por E-Mail  
+✨ Respostas Rápidas com Anexo  
+✨ SaaS  
+✨ Setores & Filas  
+✨ Tarefas  
 
 <br /><br />
 
