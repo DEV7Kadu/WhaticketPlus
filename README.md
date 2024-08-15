@@ -39,34 +39,32 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 
 ## ⭐ Recursos
 
-✨ Dashboard Informando Dados da VPS e Consumo em Tempo Real    
-✨ Integração com o Pixel do Facebook: Acompanhe e registre conversões com o pixel do Facebook    
-✨ Integração com Webhook: Utilize webhooks para conectar com outros sistemas e automatizar processos   
-✨ Construtor De Fluxos Para Chatbot     
-✨ Integração com Site: Poder receber notificações de visitas     
-✨ Atendentes   
-✨ Modo Claro/Escuro    
-✨ Cores Personalizadas  
-✨ Logotipo/Marca Própria  
-✨ Aplicativo PWA  
-✨ Domínio Próprio  
-✨ Cores Personalizadas  
-✨ Logotipo / Marca Própria  
-✨ Aplicativo PWA  
-✨ Dashboard  
-✨ Estatísticas  
-✨ Mensagens Agendadas com Anexo  
-✨ Respostas Rápidas com Anexo  
-✨ Agendamento Recorrente  
-✨ Campanhas Recorrentes  
-✨ Carteira de Cliente  
-✨ Gerenciamento de Grupos  
-✨ Chat Interno  
-✨ Tarefas  
-✨ Campanhas  
-✨ Áudio Gravado na Hora  
-✨ Setores & Filas  
+ ✨ Agendamento Recorrente
+✨ API Oficial da Meta
+✨ Aplicativo PWA
+✨ Áudio Gravado na Hora
+✨ Atendentes
+✨ Campanhas
+✨ Campanhas Recorrentes
+✨ Carteira de Clientes
+✨ Chat Interno
+✨ Construtor De Fluxos Para Chatbot
+✨ Cores Personalizadas
+✨ Dashboard
+✨ Domínio Próprio
+✨ Estatísticas
+✨ Gerenciamento de Grupos
+✨ Integração com o Pixel do Facebook: Acompanhe e registre conversões com o pixel do Facebook
+✨ Integração com Site: Poder receber notificações de visitas
+✨ Integração com Webhook: Utilize webhooks para conectar com outros sistemas e automatizar processos
+✨ Logotipo / Marca Própria
+✨ Marcação Fantasma em Grupos
+✨ Mensagens Agendadas com Anexo
+✨ Modo Claro/Escuro
 ✨ Recuperação de Senha por E-Mail
+✨ Respostas Rápidas com Anexo
+✨ Setores & Filas
+✨ Tarefas
 
 <br /><br />
 
