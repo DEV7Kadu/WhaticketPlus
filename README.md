@@ -71,19 +71,19 @@ Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. P
 
 ## ✅ Recursos via API
 
-🟢 Atualizar Contato
-🟢 Atualizar Ticket
-🟢 Criar Agendamento
-🟢 Criar Contato
-🟢 Criar Tag
-🟢 Deletar Agendamento
-🟢 Deletar Tag
-🟢 Enviar Mensagem
-🟢 Excluir Contato
-🟢 Introdução
-🟢 Listar Agendamento
-🟢 Listar Contato
-🟢 Listar Tags
+🟢 Introdução  
+🟢 Atualizar Contato  
+🟢 Atualizar Ticket  
+🟢 Criar Agendamento  
+🟢 Criar Contato  
+🟢 Criar Tag  
+🟢 Deletar Agendamento  
+🟢 Deletar Tag  
+🟢 Enviar Mensagem  
+🟢 Excluir Contato  
+🟢 Listar Agendamento  
+🟢 Listar Contato  
+🟢 Listar Tags  
 
 <br /><br />
 
