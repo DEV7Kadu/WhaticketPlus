@@ -104,7 +104,7 @@ Codigo baseado no Whaticket Community de:
 
 ## 🛠️ Com as seguintes Ferramentas de Apoio:
 <nav>
-    <li><a href="https://developers.facebook.com/docs/?locale=pt_BR" target="_blank">API Oficial Meta - WhatsApp, Instagram, Facebook</a></li>
+    <li><a href="https://developers.facebook.com/docs/?locale=pt_BR" target="_blank">API Oficial Meta - WhatsApp, Instagram DM, Facebook (Messenger)</a></li>
     <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys - WhatsApp Web API (free)</a></li>
     <li><a href="https://github.com/redis/redis" target="_blank">Redis</a></li>
     <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL</a></li>
