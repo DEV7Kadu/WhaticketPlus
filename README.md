@@ -8,6 +8,10 @@ Desenvolvido por especialistas em automação e atendimento ao cliente, nosso si
 
 Sabemos como pode ser desafiador gerenciar múltiplos canais de comunicação. Por isso, nosso sistema de tickets via WhatsApp é projetado para facilitar sua vida, permitindo que você foque no que realmente importa: atender bem seus clientes.
 
+E o melhor: Tudo em um único lugar!
+
+Já imaginou?
+
 <br /><br />
 
 ## 📌 Integrações
