@@ -9,15 +9,15 @@
 #######################################
 system_create_user() {
   print_banner
-  printf "${WHITE} 💻 Agora, vamos criar o usuário para deploywhaticketpus...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Agora, vamos criar o usuário para deploywhaticketplus...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
  
   sudo su - root <<EOF
-  useradd -m -p $(openssl passwd $deploy_password) -s /bin/bash -G sudo deploywhaticketpus
-  usermod -aG sudo deploywhaticketpus
-  mv "${PROJECT_ROOT}"/whaticket.zip /home/deploywhaticketpus/
+  useradd -m -p $(openssl passwd $deploy_password) -s /bin/bash -G sudo deploywhaticketplus
+  usermod -aG sudo deploywhaticketplus
+  mv "${PROJECT_ROOT}"/whaticket.zip /home/deploywhaticketplus/
 EOF
 
   sleep 2
@@ -35,7 +35,7 @@ system_unzip_whaticket() {
 
   sleep 2
 
-  sudo su - deploywhaticketpus <<EOF
+  sudo su - deploywhaticketplus <<EOF
   unzip whaticket.zip
 EOF
 
@@ -87,7 +87,7 @@ system_node_install() {
   sudo timedatectl set-timezone America/Sao_Paulo
   sleep 2
   sudo -u postgres psql -c "ALTER USER postgres PASSWORD '2000@23';"
-  sudo -u postgres psql -c "CREATE DATABASE whaticketwhaticketpus;"
+  sudo -u postgres psql -c "CREATE DATABASE whaticketwhaticketplus;"
   exit
 EOF
 
@@ -239,8 +239,8 @@ system_pm2_install() {
 
   sudo su - root <<EOF
   npm install -g pm2
-  pm2 startup ubuntu -u deploywhaticketpus
-  env PATH=\$PATH:/usr/bin pm2 startup ubuntu -u deploywhaticketpus --hp /home/deploywhaticketpus
+  pm2 startup ubuntu -u deploywhaticketplus
+  env PATH=\$PATH:/usr/bin pm2 startup ubuntu -u deploywhaticketplus --hp /home/deploywhaticketplus
 EOF
 
   sleep 2 
@@ -254,12 +254,12 @@ system_execute_comand() {
   sleep 2 
 
   sudo su - root <<EOF
-  usermod -aG sudo deploywhaticketpus
+  usermod -aG sudo deploywhaticketplus
   sudo apt install ffmpeg
 
-  grep -q "^deploywhaticketpus ALL=(ALL) NOPASSWD: ALL$" /etc/sudoers || echo "deploywhaticketpus ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+  grep -q "^deploywhaticketplus ALL=(ALL) NOPASSWD: ALL$" /etc/sudoers || echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-  echo "deploywhaticketpus ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
+  echo "deploywhaticketplus ALL=(ALL) NOPASSWD: ALL" | EDITOR='tee -a' visudo
   sudo apt install ffmpeg
 
 EOF
