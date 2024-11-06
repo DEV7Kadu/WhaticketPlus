@@ -2,7 +2,8 @@
 
 ## 🚀 Whaticket Plus
 
-Experimente gratuitamente nosso sistema de tickets via WhatsApp e descubra como a integração com DialogFlow, N8N, Typebot 3, WebHooks, Facebook, Instagram e um podereso Construtor De Fluxos Nativo para Chatbot podem aumentar e mudar de forma exponencial seus atentimentos! 
+
+Experimente gratuitamente nosso sistema de tickets via WhatsApp e descubra como a integração com DialogFlow, N8N, Typebot 3, WebHooks, Facebook, Instagram e um poderoso Construtor de Fluxos Nativo para Chatbot pode transformar e potencializar seus atendimentos de forma exponencial!
 
 Desenvolvido por especialistas em automação e atendimento ao cliente, nosso sistema de tickets é recomendado por profissionais que entendem a importância de uma comunicação eficiente. Com integração ao premiado Typebot 3, N8N e outras ferramentas de ponta, você está em boas mãos.
 
