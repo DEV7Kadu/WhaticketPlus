@@ -23,7 +23,7 @@ Já imaginou?
 
 ## 🔧 Requisitos
 
-<img src="https://i.postimg.cc/kGRpDYJC/Group-27.png" style="height: 250px;" />
+<img src="https://i.ibb.co/DDsKDR6B/68747470733a2f2f692e706f7374696d672e63632f6b47527044594a432f47726f75702d32372e706e67.png" style="height: 250px;" />
 
 <nav>
   <ul>
