@@ -115,9 +115,8 @@ Codigo baseado no Whaticket Community de:
     <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL 18</a></li>
     <li><a href="https://github.com/docker" target="_blank">Docker Engine 27.3.1</a></li>
     <li><a href="https://github.com/docker/compose" target="_blank">Docker Compose 2.29.1</a></li>
-    <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx</a></li>
+    <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx v1.29.2</a></li>
     <li><a href="https://github.com/nodejs/node" target="_blank">Node 22</a></li>
-    <li><a href="https://github.com/Unitech/pm2" target="_blank">PM2</a></li>
     <li><a href="https://github.com/certbot/certbot" target="_blank">Certbot</a></li>
   </ul>
 </nav>
