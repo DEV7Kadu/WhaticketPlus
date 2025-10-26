@@ -112,7 +112,7 @@ Codigo baseado no Whaticket Community de:
     <li><a href="https://developers.facebook.com/docs/?locale=pt_BR" target="_blank">API Oficial Meta - WhatsApp, Instagram DM, Facebook (Messenger)</a></li>
     <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys 7.0 - WhatsApp Web API (free)</a></li>
     <li><a href="https://github.com/redis/redis" target="_blank">Redis 8.2</a></li>
-    <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL</a></li>
+    <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL 18</a></li>
     <li><a href="https://github.com/docker" target="_blank">Docker</a></li>
     <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx</a></li>
     <li><a href="https://github.com/nodejs/node" target="_blank">Node 22</a></li>
