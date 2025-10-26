@@ -190,7 +190,6 @@ Codigo baseado no Whaticket Community de:
 
   </ul>
 </nav>
-
 <br /><br />
 
 ## 🙋 Suporte e Contato
