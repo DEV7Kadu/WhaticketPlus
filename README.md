@@ -112,7 +112,7 @@ Codigo baseado no Whaticket Community de:
  <li><a href="https://github.com/nodejs/node" target="_blank">Node.js v22 (LTS)</a> - com otimizações de performance</li>
     <li><a href="https://github.com/facebook/react" target="_blank">React v18.2.0</a> - estável com <a href="https://github.com/mui/material-ui" target="_blank">Material-UI v5.15.21</a></li>
     <li><a href="https://github.com/socketio/socket.io" target="_blank">Socket.io v4.8.1</a> - totalmente otimizado para produção</li>
-    <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys WhatsApp v7.0.0-rc.6</a> - latest RC com recursos completos</li>
+    <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys WhatsApp v7.0.0-rc.9</a> - latest RC com recursos completos</li>
     <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL v18</a> - latest estável</li>
     <li><a href="https://github.com/redis/redis" target="_blank">Redis v8.2</a> - cache/sessões</li>
     <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx v1.28.2</a> - unificado entre sistema e containers</li>
