@@ -115,7 +115,7 @@ Codigo baseado no Whaticket Community de:
     <li><a href="https://github.com/WhiskeySockets/Baileys" target="_blank">Baileys WhatsApp v7.0.0-rc.6</a> - latest RC com recursos completos</li>
     <li><a href="https://github.com/postgres/postgres" target="_blank">PostgreSQL v18</a> - latest estável</li>
     <li><a href="https://github.com/redis/redis" target="_blank">Redis v8.2</a> - cache/sessões</li>
-    <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx v1.29.2</a> - unificado entre sistema e containers</li>
+    <li><a href="https://github.com/nginx/nginx" target="_blank">Nginx v1.28.2</a> - unificado entre sistema e containers</li>
     <li><a href="https://github.com/docker" target="_blank">Docker v27.3.1</a> com <a href="https://github.com/docker/compose" target="_blank">Compose v2.29.1</a></li>
 </ul>
 
