@@ -45,6 +45,10 @@ backend_set_env() {
   frontend_url=${frontend_url%%/*}
   frontend_url=https://$frontend_url
 
+  # generate unique JWT secrets per installation
+  jwt_secret_value=$(openssl rand -base64 32)
+  jwt_refresh_secret_value=$(openssl rand -base64 32)
+
 sudo su - deploywhaticketplus << EOF
   cat <<[-]EOF > /home/deploywhaticketplus/whaticket/backend/.env
 NODE_ENV=
@@ -67,8 +71,8 @@ DB_PORT=5432
 DB_DEBUG=false
 DB_BACKUP=/www/wwwroot/backup
 
-JWT_SECRET=53pJTvkL9T6q2jYFFKwXgvLAgQahwbb/BM0opll5NZM=
-JWT_REFRESH_SECRET=1/n/QnJtfUphUd9CrXjaxRw+jSAxtRIJwFroFmqrRXY=
+JWT_SECRET=${jwt_secret_value}
+JWT_REFRESH_SECRET=${jwt_refresh_secret_value}
 
 REDIS_URI=redis://:${db_pass}@127.0.0.1:6379
 REDIS_OPT_LIMITER_MAX=1
